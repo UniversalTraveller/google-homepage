@@ -1,5 +1,4 @@
 div.search_box {
-    position:relative;
     margin-left: auto;
     margin-right: auto;
     width: 582px;
@@ -16,33 +15,29 @@ input.google_search {
     left: -1px;
     width: 92%;
     margin-right: 8%;
+    margin-top: 7px;
     border-radius: 26px;
     height: 42px;
     border-color:#ddd;
     border-style: solid;
     border-width: 1px;
     font-size: 16px;
-    margin-top: 7px;
     padding-left: 46px;
     background: transparent url(magnifying-glass.png) no-repeat 16px 14px;
 }
 
-input.google_search:hover {
+input.google_search:hover, input.google_search:focus {
     box-shadow: 0 0 4px 1px #ddd;
-}
-
-input.google_search:focus {
-    box-shadow: 0 0 4px 1px #ddd; 
 }
 
 input.search_button {
     position: relative;
     left: -1px;
+    margin: 14px 3px 0px 4px;
     background-color: #f2f2f2;
     border-radius: 4px;
     border-width: 0;
     padding: 0px 17px;
-    margin: 14px 3px 0px 4px;
     line-height: 27px;
     height: 36px;
     color:#5F6368;
@@ -62,4 +57,41 @@ p {
 
 p.search_button {
     padding-right: 12px;
+}
+
+li {
+    display: inline;
+  }
+
+a div {
+    display: inline;
+  }
+
+#main_navigation {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+#secondary_navigation {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding-left: 15px;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
