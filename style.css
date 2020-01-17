@@ -90,8 +90,27 @@ li a {
     font-size: 12px;
     letter-spacing: 0.5px;
     padding-left: 15px;
+    color: #000;
+    opacity: 75%;
 }
 
 li a:hover {
     text-decoration: underline;
+}
+
+a.google_store {
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    background-image: url('i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    color:#000;
+    cursor: pointer;
+    text-decoration: none;
+
 }
