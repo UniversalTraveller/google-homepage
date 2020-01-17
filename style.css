@@ -110,3 +110,21 @@ a.google_store {
     width: 30px;
     color:#000;
 }
+
+a.anmelden {
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background: #4285f4;
+    color: #fff;
+    height: 30px;
+    cursor: default;
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 100%;
+}
+
+a.anmelden:hover {
+    text-decoration: none;
+}
